@@ -1,6 +1,7 @@
 # first-react-app
 This is my first ever react app
 
-[npm install]
+First run the following command to install all the modules
+'''npm install'''
 
 ###npm run build
