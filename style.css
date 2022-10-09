@@ -1,0 +1,55 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    box-sizing: 1px;
+    background-color: lightblue;
+    width: 97%;
+    padding: 5px;
+    border-radius: 15px; 
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("bg.jpg");
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.main-item {
+    margin: 35px;
+}
+
+
+.main-item > h1 {
+    color:orange;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 10px;
+}
+
+.footer-item {
+    position: fixed;
+    bottom: 0px;
+    box-sizing: 1px;
+    box-align: center;
+    background-color: lightblue;
+    width: 15%;
+    margin-left: 800px;
+    padding: 1.5px;
+    border-radius: 15px; 
+    text-align: center;
+}
